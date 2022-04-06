@@ -1,0 +1,50 @@
+.wrapper
+{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .logo
+{
+	flex: 2 1 40rem;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 10;
+    padding: 0;
+    background-color: grey;
+}
+.bandeau
+{
+	background: url('images/bandeau.png');
+
+}
+nav
+{
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 2rem;
+}
+nav ul
+{
+	display:flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+.button
+{
+width: 150px;
+height: 100px;
+}
+.tbody
+{
+	align-items: center;
+}

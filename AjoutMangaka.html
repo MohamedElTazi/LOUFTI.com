@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Saisie d'un Mangaka</title>
+ <header class="bandeau">
+ 	<nav>
+                
+           <a href="index.html"><img src="images/logo.png" class="logo" >
+           <ul>
+                       <li> <a href="ListeMangaTab.php"><img src="images/oeuvrelogo.png" class="button"></a></li>
+					   <li> <a href="AjoutMangaka.html"><img src="images/mangakalogo.png" class="button"></a></li>
+                       <li><a href="AjoutOeuvre.html"><img src="images/ajouterlogo.png" class="button"></a></li>
+                       <li><a href="FAQ.php"><img src="images/FAQlogo.png" class="button"></a></li>
+           </ul>
+  
+            
+    </nav>
+ </header>
+</head>
+<body>
+
+  <form action="ListeDesMangakas.php" method="post">
+  <h2>Saisie des informations sur la nouvelle oeuvre</h2>
+  <p />Donner le nom du nouveau Mangaka :
+  <input type="text" name="NomMangaka" size="20" /><br />
+  <p />Donner le prenom du nouveau Mangaka :
+  <input type="text" name="PrenomMangaka" size="20" /><br />
+  <p /><input type="submit" value="Ajouter dans la base"><p />
+  <input type="reset" name="annuler" value="annuler" />
+  </form>
+
+<h3><a href="index.html">retour a l'accueil de LOUFTI.COM</a></h3>
+</body>
+</html>
+
